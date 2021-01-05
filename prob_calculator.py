@@ -12,11 +12,6 @@ class Hat:
                 self.contents.append(k)
 
         self.copied_list = copy.copy(self.contents)
-
-    def add_balls_back(self, dict1):
-        for k, v in dict1.items():
-            for _ in range(v):
-                self.contents.append(k)
         
 
     def draw(self, number_to_draw):

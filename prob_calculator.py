@@ -10,8 +10,6 @@ class Hat:
         for k, v in kwargs.items():
             for _ in range(v):
                 self.contents.append(k)
-
-        self.copied_list = copy.copy(self.contents)
         
 
     def draw(self, number_to_draw):
